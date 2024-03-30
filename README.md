@@ -1,13 +1,6 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: daisyUI nuxt
-- Package name: @jcsj/daisyui-nuxt
-- Description: A Nuxt module for daisyUI
--->
 
 # daisyUI nuxt
+* Never repeat yourself again in integrating daisyui in your nuxt project
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -23,9 +16,7 @@ A Nuxt module for daisyUI for doing amazing things.
 ## Features
 
 <!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- daisyUI integration
 
 ## Quick Setup
 
