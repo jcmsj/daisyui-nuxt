@@ -5,6 +5,7 @@
   "repository": "@jcsj/daisyui-nuxt",
   "license": "MIT",
   "type": "module",
+  "private": false,
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
