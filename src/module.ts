@@ -1,4 +1,5 @@
-import { defineNuxtModule, createResolver, addComponentsDir, installModule } from '@nuxt/kit'
+import { defineNuxtModule, createResolver, addComponentsDir, installModule, addTemplate } from '@nuxt/kit'
+import { join } from 'pathe'
 
 // Module options TypeScript interface definition
 export interface ModuleOptions {
@@ -27,9 +28,17 @@ export default defineNuxtModule<ModuleOptions>({
   async setup (options, nuxt) {
     const resolver = createResolver(import.meta.url)
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
+
+    const twConfigTemplate = addTemplate({
+      filename: 'daisyui-plugin.tw-config.cjs',
+      write: true,
+      getContents: () => `module.exports = { plugins: [require('daisyui')] }`
+    })
+
     await installModule('@nuxtjs/tailwindcss', {
     // module configuration
       exposeConfig: true,
+      configPath: [twConfigTemplate.dst, join(nuxt.options.srcDir, 'tailwind.config')],
       cssPath: 
       [
         resolver.resolve("./runtime/assets/tailwind.css"), 
@@ -44,9 +53,6 @@ export default defineNuxtModule<ModuleOptions>({
             resolver.resolve('./runtime/*.{mjs,js,ts}')
           ]
         },
-        plugins: [
-          require("daisyui"),
-        ],
       }
     })
   }
