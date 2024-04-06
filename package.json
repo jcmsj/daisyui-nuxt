@@ -1,6 +1,6 @@
 {
   "name": "@jcsj/daisyui-nuxt",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Nuxt module for daisyUI",
   "repository": "https://github.com/jcmsj/daisyui-nuxt/",
   "license": "MIT",
@@ -29,20 +29,20 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.11.1"
+    "@nuxt/kit": "^3.11.2"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.1.5",
-    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxt/eslint-config": "^0.3.1",
     "@nuxt/module-builder": "^0.5.5",
-    "@nuxt/schema": "^3.11.1",
+    "@nuxt/schema": "^3.11.2",
     "@nuxt/test-utils": "^3.12.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@types/node": "^20.12.4",
+    "@types/node": "^20.12.5",
     "changelogen": "^0.5.5",
-    "daisyui": "^4.9.0",
-    "eslint": "^8.57.0",
-    "nuxt": "^3.11.1",
+    "eslint": "^8.56.0",
+    "daisyui": "^4.10.1",
+    "nuxt": "^3.11.2",
     "postcss-nesting": "^12.1.1",
     "vitest": "^1.4.0"
   }

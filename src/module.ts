@@ -32,7 +32,7 @@ export default defineNuxtModule<ModuleOptions>({
       exposeConfig: true,
       cssPath: 
       [
-        "~/runtime/assets/tailwind.css", 
+        resolver.resolve("./runtime/assets/tailwind.css"), 
         {injectPosition: "first"}
       ],
       viewer: false,
