@@ -2,7 +2,10 @@
   "name": "@jcsj/daisyui-nuxt",
   "version": "0.0.6",
   "description": "A Nuxt module for daisyUI",
-  "repository": "https://github.com/jcmsj/daisyui-nuxt/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcmsj/daisyui-nuxt.git"
+  },
   "license": "MIT",
   "type": "module",
   "private": false,
