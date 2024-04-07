@@ -1,5 +1,5 @@
 import { defineNuxtModule, createResolver, addComponentsDir, installModule, addTemplate } from '@nuxt/kit'
-import { join } from 'pathe'
+import { join } from 'path'
 
 // Module options TypeScript interface definition
 export interface ModuleOptions {
