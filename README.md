@@ -20,14 +20,21 @@ A Nuxt module for daisyUI for doing amazing things.
 
 ## Quick Setup
 
-Install the module to your Nuxt application with one command:
+Install the module to your Nuxt application:
 
 ```bash
-npx nuxi module add @jcsj/daisyui-nuxt
+npx nuxi module add @jcsj/daisyui-nuxt @nuxtjs/tailwindcss
+npm add daisyui
 ```
 
 That's it! You can now use daisyUI nuxt in your Nuxt app ✨
-
+### Why two commands? 
+* It let's you use your daisyui & tailwindcss version w/o waiting for a new release of this.
+* <details>
+  <summary>Including those two here actually fails</summary>
+    1. I discovered that Nuxt's installModule does not "add" @nuxtjs/tailwindcss
+    2. `requiring` daisyui does not work outside of the playground
+  </details>
 
 ## Contribution
 
