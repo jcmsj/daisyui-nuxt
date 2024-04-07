@@ -1,5 +1,22 @@
 # Changelog
 
+## v0.0.7
+
+[compare changes](https://github.com/jcmsj/daisyui-nuxt/compare/v0.0.6...v0.0.7)
+
+### 🩹 Fixes
+
+- Path ([8686032](https://github.com/jcmsj/daisyui-nuxt/commit/8686032))
+
+### 🏡 Chore
+
+- Use template for passing plugin to tailwind ([d9efece](https://github.com/jcmsj/daisyui-nuxt/commit/d9efece))
+
+### ❤️ Contributors
+
+- Jean Carlo San Juan <sanjuan.jeancarlo@gmail.com>
+- Inesh Bose <dev@inesh.xyz>
+
 ## v0.0.6
 
 [compare changes](https://github.com/jcmsj/daisyui-nuxt/compare/v0.0.5...v0.0.6)
