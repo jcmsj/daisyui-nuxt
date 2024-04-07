@@ -1,6 +1,6 @@
 {
   "name": "@jcsj/daisyui-nuxt",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A Nuxt module for daisyUI",
   "repository": {
     "type": "git",
@@ -54,7 +54,6 @@
   "peerDependenciesMeta": {
     "@nuxtjs/tailwindcss": {
       "optional": false
-
     },
     "daisyui": {
       "optional": false
